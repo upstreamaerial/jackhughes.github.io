@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Up Stream Aerial provides professional drone photography and video services in Oregon.">
+  <meta name="theme-color" content="#071726">
+  <title>Up Stream Aerial | Oregon Drone Photography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Up Stream Aerial home">
+      <span class="brand-mark">USA</span>
+      <span>
+        <strong>Up Stream Aerial</strong>
+        <small>Oregon Drone Media</small>
+      </span>
+    </a>
+
+    <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Request a Quote</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">FAA Part 107 Certified · Oregon</p>
+        <h1>See your property from a better angle.</h1>
+        <p class="hero-copy">
+          Professional aerial photography and video for real estate, commercial properties,
+          construction progress, and local businesses.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Get a Free Quote</a>
+          <a class="button button-secondary" href="#portfolio">View Portfolio</a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-label="Up Stream Aerial brand artwork">
+        <img src="assets/up-stream-aerial-logo.svg" alt="Up Stream Aerial drone, trees, and stream logo">
+      </div>
+
+      <a class="scroll-prompt" href="#portfolio">Explore ↓</a>
+    </section>
+
+    <section class="section intro">
+      <div>
+        <p class="eyebrow dark">Aerial media that stands out</p>
+        <h2>Clean, professional visuals without the big-agency hassle.</h2>
+      </div>
+      <p>
+        Up Stream Aerial helps Oregon property owners, agents, contractors, and businesses
+        show locations clearly and professionally from the air and the ground.
+      </p>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark">Selected work</p>
+          <h2>Portfolio</h2>
+        </div>
+        <p>Replace these sample panels with your own JPG or WebP photos when you are ready.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="portfolio-card portfolio-one">
+          <div class="portfolio-label">
+            <span>Real Estate</span>
+            <strong>Residential Property</strong>
+          </div>
+        </article>
+        <article class="portfolio-card portfolio-two">
+          <div class="portfolio-label">
+            <span>Commercial</span>
+            <strong>Business & Site Media</strong>
+          </div>
+        </article>
+        <article class="portfolio-card portfolio-three">
+          <div class="portfolio-label">
+            <span>Progress</span>
+            <strong>Construction Documentation</strong>
+          </div>
+        </article>
+        <article class="portfolio-card portfolio-four">
+          <div class="portfolio-label">
+            <span>Landscape</span>
+            <strong>Oregon From Above</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">What I offer</p>
+          <h2>Services</h2>
+        </div>
+        <p>Flexible packages can be tailored to the property, project, and final use.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="service-number">01</span>
+          <h3>Aerial Photography</h3>
+          <p>High-resolution drone images for listings, marketing, websites, and social media.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">02</span>
+          <h3>Aerial Video</h3>
+          <p>Smooth cinematic footage that shows a property, location, or business in context.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">03</span>
+          <h3>Real Estate Media</h3>
+          <p>Exterior, interior, and aerial coverage packaged for agents and property owners.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-number">04</span>
+          <h3>Commercial Projects</h3>
+          <p>Visual documentation for construction progress, sites, facilities, and local businesses.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-visual">
+        <div class="about-badge">
+          <strong>Part 107</strong>
+          <span>FAA Certified Remote Pilot</span>
+        </div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow dark">About Up Stream Aerial</p>
+        <h2>Local service with a professional eye.</h2>
+        <p>
+          Up Stream Aerial is an Oregon-based drone photography business focused on dependable,
+          high-quality visual media. Every flight is planned around safety, airspace rules,
+          weather, and the needs of the client.
+        </p>
+        <p>
+          Whether you need a few strong listing photos or recurring progress documentation,
+          you get straightforward communication and deliverables built for real-world use.
+        </p>
+        <ul class="check-list">
+          <li>FAA Part 107 certified</li>
+          <li>Insured operations available</li>
+          <li>High-resolution edited files</li>
+          <li>Serving the Portland metro area</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark">Simple process</p>
+          <h2>How it works</h2>
+        </div>
+      </div>
+      <div class="process-grid">
+        <div><span>1</span><h3>Tell me about the project</h3><p>Share the location, goals, timing, and type of media you need.</p></div>
+        <div><span>2</span><h3>Approve the plan</h3><p>I confirm scope, pricing, airspace, weather, and a flight date.</p></div>
+        <div><span>3</span><h3>Receive your media</h3><p>Your edited files are delivered digitally and ready to use.</p></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Start a project</p>
+        <h2>Let’s get your property in the air.</h2>
+        <p>
+          Send the project location, the type of photos or video you need, and your preferred timeline.
+        </p>
+        <div class="contact-details">
+          <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a>
+          <a href="tel:+15035550123">(503) 555-0123</a>
+          <span>Portland, Oregon</span>
+        </div>
+      </div>
+
+      <form class="contact-form" action="https://formsubmit.co/YOUR-EMAIL@example.com" method="POST">
+        <input type="hidden" name="_subject" value="New Up Stream Aerial website inquiry">
+        <input type="hidden" name="_captcha" value="false">
+        <label>
+          Name
+          <input type="text" name="name" required autocomplete="name">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required autocomplete="email">
+        </label>
+        <label>
+          Project location
+          <input type="text" name="location">
+        </label>
+        <label>
+          What do you need?
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="button button-primary" type="submit">Send Request</button>
+        <small>Before publishing, replace YOUR-EMAIL@example.com in this file with your real business email.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top">
+      <span class="brand-mark">USA</span>
+      <span><strong>Up Stream Aerial</strong><small>Oregon Drone Media</small></span>
+    </a>
+    <p>© <span id="year"></span> Up Stream Aerial. All rights reserved.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+# Up Stream Aerial Website
+
+This folder is ready for GitHub Pages.
+
+## Before publishing
+
+Open `index.html` and replace:
+
+- `YOUR-EMAIL@example.com` with your real business email
+- `(503) 555-0123` with your real business phone number
+- `+15035550123` with your phone number using only country code and digits
+
+The contact form uses FormSubmit. The first test submission will send a confirmation email to the address you enter.
+
+## Upload to GitHub
+
+1. Create a new public repository on GitHub.
+2. Click **Add file** then **Upload files**.
+3. Upload:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+   - the entire `assets` folder
+4. Click **Commit changes**.
+5. Open the repository's **Settings**.
+6. Select **Pages**.
+7. Under **Build and deployment**, choose:
+   - Source: `Deploy from a branch`
+   - Branch: `main`
+   - Folder: `/ (root)`
+8. Save.
+
+GitHub will display your website address after deployment.
+
+## Connect your domain
+
+In the GitHub Pages settings, enter your custom domain. GitHub will show the DNS records to add through the company where you purchased your domain.
+
+## Add portfolio photos
+
+The current portfolio panels are styled placeholders.
+
+To use your own photos:
+
+1. Put your photos inside `assets`.
+2. In `style.css`, find `.portfolio-one`, `.portfolio-two`, `.portfolio-three`, or `.portfolio-four`.
+3. Replace the existing `background:` property with:
+
+```css
+background:
+  linear-gradient(to top, rgba(4,20,31,.80), transparent 60%),
+  url("assets/your-photo-name.jpg") center / cover no-repeat;
+```
+
+Keep photo file names lowercase and avoid spaces.
+
+const menuButton = document.querySelector(".menu-button");
+const nav = document.querySelector(".site-nav");
+
+menuButton.addEventListener("click", () => {
+  const open = nav.classList.toggle("open");
+  menuButton.setAttribute("aria-expanded", String(open));
+});
+
+document.querySelectorAll(".site-nav a").forEach((link) => {
+  link.addEventListener("click", () => {
+    nav.classList.remove("open");
+    menuButton.setAttribute("aria-expanded", "false");
+  });
+});
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+:root {
+  --navy: #071726;
+  --navy-2: #0d263a;
+  --blue: #2f88a8;
+  --blue-light: #78bdd4;
+  --cream: #f4f2eb;
+  --white: #ffffff;
+  --ink: #101b23;
+  --muted: #64727c;
+  --line: rgba(16, 27, 35, 0.14);
+  --radius: 22px;
+  --shadow: 0 24px 70px rgba(7, 23, 38, 0.18);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: "Manrope", Arial, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.6;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+button, input, textarea { font: inherit; }
+
+.site-header {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px clamp(20px, 5vw, 72px);
+  color: white;
+  background: rgba(7, 23, 38, 0.76);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255,255,255,0.10);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.brand-mark {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.brand strong, .brand small { display: block; }
+.brand strong { font-size: 15px; letter-spacing: 0.02em; }
+.brand small { font-size: 10px; opacity: 0.68; letter-spacing: 0.13em; text-transform: uppercase; }
+
+.site-nav { display: flex; align-items: center; gap: 28px; }
+.site-nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.site-nav a:hover { color: var(--blue-light); }
+.nav-cta {
+  padding: 10px 16px;
+  border: 1px solid rgba(255,255,255,0.45);
+  border-radius: 999px;
+}
+.menu-button {
+  display: none;
+  color: white;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 999px;
+  padding: 8px 13px;
+}
+
+.hero {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
+  align-items: center;
+  gap: 5vw;
+  padding: 130px clamp(24px, 7vw, 110px) 90px;
+  color: white;
+  background:
+    radial-gradient(circle at 78% 30%, rgba(47,136,168,0.34), transparent 30%),
+    linear-gradient(135deg, #06131f 0%, #0b263b 55%, #0f3a4a 100%);
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.09) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: linear-gradient(to bottom, black, transparent);
+}
+.hero-content, .hero-card { position: relative; z-index: 2; }
+.hero h1 {
+  max-width: 850px;
+  margin: 12px 0 22px;
+  font-size: clamp(48px, 7vw, 92px);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+.hero-copy {
+  max-width: 720px;
+  color: rgba(255,255,255,0.77);
+  font-size: clamp(17px, 2vw, 22px);
+}
+.eyebrow {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--blue-light);
+}
+.eyebrow.dark { color: #2c7590; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 0;
+  text-decoration: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+.button-primary { color: white; background: var(--blue); }
+.button-primary:hover { background: #3c9bbb; transform: translateY(-1px); }
+.button-secondary {
+  color: white;
+  border: 1px solid rgba(255,255,255,0.38);
+  background: rgba(255,255,255,0.04);
+}
+
+.hero-card {
+  justify-self: end;
+  width: min(100%, 520px);
+  padding: 22px;
+  border-radius: 28px;
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 40px 100px rgba(0,0,0,0.28);
+  transform: rotate(2deg);
+}
+.hero-card img { width: 100%; }
+.scroll-prompt {
+  position: absolute;
+  z-index: 2;
+  left: clamp(24px, 7vw, 110px);
+  bottom: 24px;
+  color: rgba(255,255,255,0.58);
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.section { padding: 100px clamp(24px, 7vw, 110px); }
+.intro {
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 8vw;
+  align-items: end;
+}
+.intro h2, .section-heading h2, .about h2, .contact-section h2 {
+  margin: 10px 0 0;
+  font-size: clamp(36px, 5vw, 64px);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+}
+.intro > p, .section-heading > p { color: var(--muted); max-width: 560px; }
+
+.section-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 20px;
+}
+.portfolio-card {
+  position: relative;
+  min-height: 390px;
+  overflow: hidden;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-one {
+  min-height: 540px;
+  grid-row: span 2;
+  background:
+    linear-gradient(to top, rgba(4,20,31,.86), transparent 58%),
+    radial-gradient(circle at 70% 25%, #93c9d8, transparent 24%),
+    linear-gradient(135deg, #41758b, #173144 60%, #0d202c);
+}
+.portfolio-two {
+  background:
+    linear-gradient(to top, rgba(4,20,31,.86), transparent 58%),
+    linear-gradient(155deg, #7d9ba5, #254557 52%, #0b1d29);
+}
+.portfolio-three {
+  background:
+    linear-gradient(to top, rgba(4,20,31,.86), transparent 58%),
+    repeating-linear-gradient(105deg, #31586a 0 32px, #173241 32px 64px);
+}
+.portfolio-four {
+  grid-column: span 2;
+  background:
+    linear-gradient(to top, rgba(4,20,31,.86), transparent 62%),
+    radial-gradient(ellipse at 20% 40%, #4f836e, transparent 30%),
+    radial-gradient(ellipse at 70% 30%, #7ca8b7, transparent 22%),
+    linear-gradient(130deg, #17382d, #0e2633 70%);
+}
+.portfolio-label {
+  position: absolute;
+  left: 24px;
+  bottom: 22px;
+  color: white;
+}
+.portfolio-label span, .portfolio-label strong { display: block; }
+.portfolio-label span {
+  color: var(--blue-light);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+.portfolio-label strong { font-size: 21px; }
+
+.services {
+  color: white;
+  background: var(--navy);
+}
+.services .section-heading > p { color: rgba(255,255,255,0.58); }
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.service-card {
+  min-height: 290px;
+  padding: 26px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius);
+  background: rgba(255,255,255,0.035);
+}
+.service-card:hover { background: rgba(255,255,255,0.07); transform: translateY(-3px); }
+.service-number { color: var(--blue-light); font-size: 12px; font-weight: 800; }
+.service-card h3 { margin-top: 80px; font-size: 22px; }
+.service-card p { color: rgba(255,255,255,0.62); }
+
+.about {
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 7vw;
+  align-items: center;
+}
+.about-visual {
+  min-height: 580px;
+  border-radius: var(--radius);
+  display: grid;
+  place-items: end start;
+  padding: 26px;
+  background:
+    radial-gradient(circle at 64% 30%, rgba(121,190,213,0.7), transparent 17%),
+    linear-gradient(150deg, #315d6c, #0a2332 66%);
+  box-shadow: var(--shadow);
+}
+.about-badge {
+  width: 190px;
+  padding: 20px;
+  border-radius: 18px;
+  color: white;
+  background: rgba(7,23,38,.82);
+  backdrop-filter: blur(10px);
+}
+.about-badge strong, .about-badge span { display: block; }
+.about-badge strong { font-size: 28px; }
+.about-badge span { color: rgba(255,255,255,.65); font-size: 12px; }
+.about-copy p { color: var(--muted); }
+.check-list { list-style: none; padding: 0; margin: 28px 0 0; }
+.check-list li { padding: 12px 0; border-bottom: 1px solid var(--line); font-weight: 700; }
+.check-list li::before { content: "✓"; margin-right: 12px; color: #2c7590; }
+
+.process { background: #e9ece8; }
+.process-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.process-grid > div { padding: 30px; border-top: 1px solid var(--ink); }
+.process-grid span { font-size: 12px; font-weight: 800; color: #2c7590; }
+.process-grid h3 { font-size: 22px; }
+.process-grid p { color: var(--muted); }
+
+.contact-section {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 7vw;
+  padding: 110px clamp(24px, 7vw, 110px);
+  color: white;
+  background: linear-gradient(145deg, #071726, #0d3347);
+}
+.contact-section > div > p { color: rgba(255,255,255,.65); max-width: 580px; }
+.contact-details { display: grid; gap: 10px; margin-top: 34px; }
+.contact-details a { color: white; text-decoration: none; }
+.contact-details span { color: rgba(255,255,255,.55); }
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  padding: 28px;
+  border-radius: var(--radius);
+  background: white;
+  color: var(--ink);
+}
+.contact-form label { display: grid; gap: 7px; font-size: 12px; font-weight: 800; }
+.contact-form label:nth-of-type(4), .contact-form button, .contact-form small { grid-column: 1 / -1; }
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  border: 1px solid #ccd4d8;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fbfcfc;
+}
+.contact-form textarea { resize: vertical; }
+.contact-form small { color: var(--muted); }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 28px clamp(24px, 7vw, 110px);
+  color: white;
+  background: #04101a;
+  font-size: 12px;
+}
+footer a { text-decoration: none; }
+.footer-brand .brand-mark { width: 36px; height: 36px; }
+
+.portfolio-card, .service-card, .button { transition: .25s ease; }
+
+@media (max-width: 900px) {
+  .menu-button { display: block; }
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    right: 16px;
+    padding: 22px;
+    flex-direction: column;
+    align-items: stretch;
+    background: #071726;
+    border: 1px solid rgba(255,255,255,.13);
+    border-radius: 16px;
+  }
+  .site-nav.open { display: flex; }
+  .hero { grid-template-columns: 1fr; padding-top: 140px; }
+  .hero-card { justify-self: start; width: min(100%, 480px); transform: none; }
+  .intro, .about, .contact-section { grid-template-columns: 1fr; }
+  .service-grid { grid-template-columns: 1fr 1fr; }
+  .process-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 650px) {
+  .section { padding: 75px 20px; }
+  .site-header { padding: 14px 18px; }
+  .brand small { display: none; }
+  .hero { padding: 125px 20px 78px; min-height: auto; }
+  .hero h1 { font-size: 52px; }
+  .section-heading { align-items: start; flex-direction: column; }
+  .portfolio-grid { grid-template-columns: 1fr; }
+  .portfolio-one, .portfolio-four { grid-column: auto; grid-row: auto; min-height: 390px; }
+  .service-grid { grid-template-columns: 1fr; }
+  .about-visual { min-height: 420px; }
+  .contact-form { grid-template-columns: 1fr; }
+  .contact-form label { grid-column: 1 / -1; }
+  footer { flex-direction: column; align-items: flex-start; }
+}
