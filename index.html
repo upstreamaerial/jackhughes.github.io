@@ -236,7 +236,7 @@
         </div>
       </div>
 
-      <form class="contact-form" action="https://formsubmit.co/jackhughes@upstreamaerial.com" method="POST">
+      <form id="quoteForm" class="contact-form" action="https://formsubmit.co/jackhughes@upstreamaerial.com" method="POST">
         <input type="hidden" name="_subject" value="New Up Stream Aerial website inquiry">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="table">
@@ -283,6 +283,13 @@
           The first submission may require a one-time confirmation through FormSubmit.
         </p>
       </form>
+
+      <div id="formMessage" class="form-success" hidden>
+        <h3>Thank you!</h3>
+        <p>Your quote request has been sent successfully.</p>
+        <p>I’ll review your project details and get back to you within one business day.</p>
+        <p>Need a faster response? Call or text <a href="tel:+15035775398">(503) 577-5398</a>.</p>
+      </div>
     </section>
   </main>
 
@@ -304,5 +311,43 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    const quoteForm = document.getElementById("quoteForm");
+    const formMessage = document.getElementById("formMessage");
+    const submitButton = quoteForm?.querySelector('button[type="submit"]');
+
+    if (quoteForm && formMessage && submitButton) {
+      quoteForm.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const originalButtonText = submitButton.textContent;
+        submitButton.disabled = true;
+        submitButton.textContent = "Sending...";
+
+        try {
+          const response = await fetch(quoteForm.action, {
+            method: "POST",
+            body: new FormData(quoteForm),
+            headers: {
+              Accept: "application/json"
+            }
+          });
+
+          if (!response.ok) {
+            throw new Error("Form submission failed");
+          }
+
+          quoteForm.reset();
+          quoteForm.hidden = true;
+          formMessage.hidden = false;
+          formMessage.scrollIntoView({ behavior: "smooth", block: "center" });
+        } catch (error) {
+          alert("There was a problem sending your request. Please try again or contact me directly.");
+          submitButton.disabled = false;
+          submitButton.textContent = originalButtonText;
+        }
+      });
+    }
+  </script>
 </body>
 </html>
